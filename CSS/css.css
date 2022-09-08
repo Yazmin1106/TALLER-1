@@ -1,3 +1,5 @@
+
+
 .navbar-brand {
     position: absolute;
     align-items: center;
@@ -6,18 +8,20 @@
     height: 100px;
     width: 100%;
     font-weight: bold;
+    background-color: red;
 }
 
 
 
 footer{
-    background-color: blue;
+    background-color: red;
     color:white;
     text-align: center;
     height: 17%;
     width: 100%;
     bottom: 0px;
     position: absolute;
+   
     
 }
 
@@ -25,25 +29,24 @@ footer{
     border: solid 1px black;
     margin-top: 3%;
     margin-left: 10%;
-    margin-right: 14%;
+    margin-right: 20%;
     margin-bottom: 2%;
-    padding-left: 13%;
+    
     
     
 
 }
 
 img{
-
+    
     padding: 2%; /*tenga eapcio desde adentro*/
     
 }
 
-h4{font-size: 0,5 em;}
-
 
 #imagen{
     text-align: center;
+    
 }
 button{
     font-size: 1.0em;
