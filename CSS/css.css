@@ -61,3 +61,37 @@ button{
 button:hover{
     background-color: rgb(243, 10, 10);
 }
+#bibliografia{
+    height: 60vh; /*altura de la pantalla*/  
+    
+  }
+  .biblio-container{
+     padding: 40px ; 
+     border: 1px solid rgb(0, 0, 3); /*ancho del borde*/
+     width: 80%;
+     margin-left: 10%;
+     margin-right: 10%;
+  
+     
+  }
+  .img2-container{ /*SOLO IMAGEN*/
+  
+      display: flex;
+      float: right;
+      background-position: right right;
+      margin-right: 10px; /*DISTANCIA DESDE LA FOTO A LA MARGEN*/
+      
+      
+      
+  } 
+  .tex-container .p{   /*SOLO TEXTO*/
+      float: left;
+      text-align: justify;
+      
+      
+  }
+  .tex-container h2{ /*SOLO TEXTO*/
+      float: center;
+      text-align: justify;
+    }
+
