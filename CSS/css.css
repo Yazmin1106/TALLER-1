@@ -17,10 +17,10 @@ footer{
     background-color: red;
     color:white;
     text-align: center;
-    height: 17%;
+    height: 13%;
     width: 100%;
     bottom: 0px;
-    position: absolute;
+    position: relative;
    
     
 }
@@ -66,7 +66,7 @@ button:hover{
     
   }
   .biblio-container{ /*PRICIPAL*/
-     padding: 40px ; 
+     
      border: 1px solid rgb(0, 0, 3); /*ancho del borde*/
      width: 80%;
      margin-left: 10%;
@@ -86,7 +86,8 @@ button:hover{
   } 
   .tex-container .p{   /*SOLO TEXTO*/
       float: left;
-      text-align: justify;
+      text-align: left;
+
       
       
   }
@@ -95,3 +96,32 @@ button:hover{
       text-align: justify;
     }
 
+
+    .botones{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 5px;
+        
+    
+    }
+    
+
+    a:link , :visited{
+        background-color: red;
+       color: white;
+       padding: 14px 20px;
+        border: solid 1px rgb(14, 13, 13);
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border: solid 1px black;
+        
+    
+      }
+      
+      a:hover, a:active{
+        background-color:red;
+
+      }
+    
