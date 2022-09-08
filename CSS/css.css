@@ -65,7 +65,7 @@ button:hover{
     height: 60vh; /*altura de la pantalla*/  
     
   }
-  .biblio-container{
+  .biblio-container{ /*PRICIPAL*/
      padding: 40px ; 
      border: 1px solid rgb(0, 0, 3); /*ancho del borde*/
      width: 80%;
